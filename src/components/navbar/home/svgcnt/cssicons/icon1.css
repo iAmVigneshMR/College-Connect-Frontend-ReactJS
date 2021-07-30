@@ -1,0 +1,46 @@
+#iconsvg {
+  padding: 30px 20px;
+}
+
+#iconsvg #icon2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ease-in 1s;
+  transition: ease-in 1s;
+}
+
+#icon5:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+#crop1:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+#crop2:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+#Vector_3:hover {
+  fill: yellow;
+}
+
+#Vector_2:hover {
+  fill: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+  #iconsvg {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=icon1.css.map */

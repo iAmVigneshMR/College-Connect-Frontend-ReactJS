@@ -1,0 +1,142 @@
+.card-container {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-container .card-contents {
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  padding: 70px 0px;
+}
+
+.card-container .con-contents {
+  background: white;
+  padding: 50px 50px;
+  margin: 10px 0px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+}
+
+.card-container .con-contents i {
+  font-size: 5rem;
+}
+
+.card-container .con-contents h3 {
+  font-size: 2.5rem;
+}
+
+.card-container .con-contents p {
+  font-size: 1.8rem;
+}
+
+.letter-container h1 {
+  line-height: 20rem;
+  letter-spacing: -3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-contents {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .letter-container {
+    padding: 20px 5px;
+  }
+  .letter-container h1 {
+    font-family: "Poppins", sans-serif;
+    line-height: 10rem;
+    letter-spacing: -1px;
+    font-size: 6rem;
+    color: white;
+    padding-left: 8px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .card-contents {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .letter-container {
+    padding: 20px 5px;
+  }
+  .letter-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 10rem;
+    color: white;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card-contents {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .letter-container {
+    padding: 20px 5px;
+  }
+  .letter-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 11rem;
+    color: white;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card-contents {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .letter-container {
+    padding: 20px 5px;
+  }
+  .letter-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 13rem;
+    color: white;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card-contents {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .letter-container {
+    padding: 20px 5px;
+  }
+  .letter-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20rem;
+    color: white;
+    padding-left: 20px;
+  }
+}
+/*# sourceMappingURL=cards.css.map */

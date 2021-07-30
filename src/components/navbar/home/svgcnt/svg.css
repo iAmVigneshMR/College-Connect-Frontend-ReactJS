@@ -1,0 +1,95 @@
+.svg-container {
+  width: 100%;
+  padding: 70px 0px;
+  background-color: #e5e5e5;
+}
+
+.svg-container .svg-contents {
+  display: -ms-grid;
+  display: grid;
+}
+
+.svg-container .con-contents h1 {
+  font-size: 2.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.svg-container .con-contents h3 {
+  font-size: 2.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.svg-container .con-contents p {
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .svg-container {
+    padding: 5px 0px;
+  }
+  .svg-container .svg-contents {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .svg-container .svg-contents .img-svg {
+    margin-right: 20%;
+    padding: 10px 30px 0px 30px;
+  }
+  .con-contents {
+    padding: 20px 100px 0px 30px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .svg-contents {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .svg-contents .img-svg {
+    padding: 10px  30px;
+  }
+  .con-contents {
+    padding: 20px 50px 0px 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .svg-contents {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .svg-contents .img-svg {
+    padding: 10px  30px;
+  }
+  .con-contents {
+    padding: 20px 50px 0px 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .svg-contents {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .svg-contents .img-svg {
+    padding: 10px 5px 10px 30px;
+  }
+  .con-contents {
+    padding: 20px 40px 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .svg-contents {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .svg-contents .img-svg {
+    padding: 10px  30px;
+  }
+  .con-contents {
+    padding: 20px 40px 0px 3px;
+  }
+}
+/*# sourceMappingURL=svg.css.map */
